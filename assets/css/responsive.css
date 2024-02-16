@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1200px){
+    
+}
+@media only screen and (max-width: 992px){
+    
+}
+@media only screen and (max-width: 768px){
+    .Navbar-dropdown{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .search-input-box{
+        margin-bottom: 20px;
+    }
+    .top-nav .btn-primary{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .Navbar-dropdown.dropdown-toggle::after{
+        top: 33%;
+        right: 15px;
+    }
+    .category-nav-box .category-list{
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .category-nav-box .category-list li .category-link{
+        white-space: nowrap;
+    }
+    .footer-banner .img-box img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-banner .content-box img{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 576px){
+    
+}
+@media only screen and (max-width: 400px){
+    
+}

@@ -1,0 +1,20 @@
+:root {
+    --primary: #db0d0d;
+    --Secondary: #B59410;
+    --lightgrey: #F0F0F0;
+    --gray: #585858;
+    --ButtonDisabled: #995c99;
+    --WhiteBackground: #FFFFFF;
+    --White: #FAFAFA;
+    --text: #333333;
+    --error: #FF0000;
+    --black: #000000;
+    --Green: #4CAF50;
+    --Button: #db0d0d;
+    --Accent: #FF6347;
+    --Link: #007BFF;
+    --red: #db0d0d;
+    --lightGreen: #eef7f2;
+    --lightRed: #fdf5f4;
+
+}
