@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
-<body>
+<body class="scrollbar" id="style-2">
     <div class="body-wrapper">
         <header id="header">
             <div class="top-nav">
@@ -187,7 +187,7 @@
                                             </p>
                                         </div>
                                         <div class="d-flex align-items-center justify-content-end">
-                                            <a class="share-btn me-3" href="">
+                                            <a class="share-btn me-3" href=""  data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="fal fa-share-alt"></i>
                                             </a>
                                             <a class="like-btn" href="">
@@ -222,7 +222,9 @@
                                     </div>
                                 </div>
                                 <div class="contact-btn-box">
-                                    <a href="" class="contact-btn">
+                                    <a href="" class="contact-btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="number-tooltip"
+                                    data-bs-title="03110002255">
                                         <i class="fal fa-phone-alt me-2"></i>Call Now
                                     </a>
                                     <a href="" class="contact-btn">
@@ -529,6 +531,105 @@
                 </div>
             </div>
         </footer>
+        <!-- Share Modal -->
+        <!-- Button trigger modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Share Links</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="">
+                            <!-- <p class="title">
+                                Share
+                            </p> -->
+                            <div class="share-list-box">
+                                <ul class="scrollbar" id="style-2">
+                                    <li>
+                                        <a href="">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="">
+                                            <p class="name">WhatsApp</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://static.vecteezy.com/system/resources/previews/023/986/999/original/facebook-logo-facebook-logo-transparent-facebook-icon-transparent-free-free-png.png" alt="">
+                                            <p class="name">Facebook</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1708128000&semt=ais" alt="">
+                                            <p class="name">X</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://w7.pngwing.com/pngs/814/840/png-transparent-tiktok-tiktok-logo-tiktok-icon-thumbnail.png" alt="">
+                                            <p class="name">TikTok</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="">
+                                            <p class="name">WhatsApp</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://static.vecteezy.com/system/resources/previews/023/986/999/original/facebook-logo-facebook-logo-transparent-facebook-icon-transparent-free-free-png.png" alt="">
+                                            <p class="name">Facebook</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1708128000&semt=ais" alt="">
+                                            <p class="name">X</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://w7.pngwing.com/pngs/814/840/png-transparent-tiktok-tiktok-logo-tiktok-icon-thumbnail.png" alt="">
+                                            <p class="name">TikTok</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="">
+                                            <p class="name">WhatsApp</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://static.vecteezy.com/system/resources/previews/023/986/999/original/facebook-logo-facebook-logo-transparent-facebook-icon-transparent-free-free-png.png" alt="">
+                                            <p class="name">Facebook</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1708128000&semt=ais" alt="">
+                                            <p class="name">X</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://w7.pngwing.com/pngs/814/840/png-transparent-tiktok-tiktok-logo-tiktok-icon-thumbnail.png" alt="">
+                                            <p class="name">TikTok</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Jquery CDN -->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
@@ -551,6 +652,10 @@
     <!-- Slick -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
     <script>
         $(document).ready(function () {
             $('select').niceSelect();
