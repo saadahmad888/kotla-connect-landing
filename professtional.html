@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kotla Connect</title>
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awesome Style-Sheet -->
+    <link rel="stylesheet" href="./assets/css/all.css">
+    <!-- Owl Carsoule -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Smart Wizard -->
+    <link rel="stylesheet" href="assets/css/smart_wizard_all.min.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <!-- Jquery Nice Select -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- Custom Style-Sheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body class="scrollbar" id="style-2">
+    <div class="body-wrapper">
+        <div class="login-bg with-spacing-professional">
+            <div class="login-box with-spacing">
+                <div class="heading-box">
+                    <a href="index.html" class="text-center">
+                        <img height="50px" src="assets/images/adaptive-icon.png" alt="">
+                    </a>
+                    <h1>
+                        Become Professional
+                    </h1>
+                </div>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item w-50" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                            type="button" role="tab" aria-controls="pills-home" aria-selected="true">Individual</button>
+                    </li>
+                    <li class="nav-item w-50" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Business</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                        tabindex="0">
+                        <form action="">
+                            <div class="">
+                                <div class="avatar-upload">
+                                    <div class="avatar-edit">
+                                        <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                                        <label for="imageUpload"></label>
+                                    </div>
+                                    <div class="avatar-preview">
+                                        <div id="imagePreview" style="background-image: url('http://i.pravatar.cc/500?img=7');">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Experties</label>
+                                <div class="">
+                                    <select class="w-100 mb-3">
+                                        <option data-display="Select your experties">Teacher</option>
+                                        <option value="1">Some option</option>
+                                        <option value="2">Another option</option>
+                                        <option value="4">Potato</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" name="" id="" placeholder="Enter your Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Your Address</label>
+                                <input type="text" class="form-control" name="" id="" placeholder="Enter your address">
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">About yourself</label>
+                                <textarea class="form-control" placeholder="Tell us about your yourself" id="" rows="3"></textarea>
+                              </div>
+                            <div class="mb-3">
+                                <button type="button" class="btn-primary w-100">
+                                    Create Individual Profile
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                        <form action="">
+                            <div class="">
+                                <div class="avatar-upload">
+                                    <div class="avatar-edit">
+                                        <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                                        <label for="imageUpload"></label>
+                                    </div>
+                                    <div class="avatar-preview">
+                                        <div id="imagePreview" style="background-image: url('./assets/images/splash.png');">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Experties</label>
+                                <div class="">
+                                    <select class="w-100 mb-3">
+                                        <option data-display="Select your experties">Teacher</option>
+                                        <option value="1">Some option</option>
+                                        <option value="2">Another option</option>
+                                        <option value="4">Potato</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Business Name</label>
+                                <input type="text" class="form-control" name="" id="" placeholder="Enter your Business Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Business Address</label>
+                                <input type="text" class="form-control" name="" id="" placeholder="Enter your Business Address">
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">About your business</label>
+                                <textarea class="form-control" placeholder="Tell us about your business" id="" rows="3"></textarea>
+                              </div>
+                            <div class="mb-3">
+                                <button type="button" class="btn-primary w-100">
+                                    Create Business Profile
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Jquery CDN -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Lord Icon -->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <!-- validate js -->
+    <script src="assets/js/jquery.validate.js"></script>
+    <!-- Smart Wizard -->
+    <script src="assets/js/jquery.smartWizard.min.js"></script>
+    <!-- Owl Carsoul -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Jquery Nice Select -->
+    <script src="assets/js/jquery.nice-select.js"></script>
+    <!-- Isotope JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <!-- Slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+            $('select').niceSelect();
+        });
+    </script>
+    <script>
+        window.addEventListener('scroll', function () {
+            var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+            var backToTopBox = document.getElementById('backToTopBox');
+
+            if (scrollPosition > 500) {
+                backToTopBox.style.display = 'block';
+            } else {
+                backToTopBox.style.display = 'none';
+            }
+        });
+    </script>
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('#imagePreview').css('background-image', 'url(' + e.target.result + ')');
+                    $('#imagePreview').hide();
+                    $('#imagePreview').fadeIn(650);
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+        $("#imageUpload").change(function () {
+            readURL(this);
+        });
+    </script>
+    <script>
+        $('#main-banner-slider').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay:true,
+            autoplayTimeout:1000,
+            autoplayHoverPause:true,
+            animateOut: 'fadeOut',
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        });
+        
+        $('.single-category-slider').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            autoplay:true,
+            autoplayTimeout:1000,
+            autoplayHoverPause:true,
+            animateOut: 'fadeOut',
+            nav: false,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+    </script>
+    
+    
+</body>
+
+</html>
